@@ -232,37 +232,69 @@ main {
   font-size: 16px;
   color: var(--second-color);
 }
+/*===== Interest =====*/
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.interests .icon-box {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: #fff;
+  transition: ease-in-out 0.3s;
+  border-radius: 1rem;
+  box-shadow: 0 4px 25px rgb(201, 201, 201);
+}
+.interests .icon-box i {
+  font-size: 32px;
+  padding-right: 10px;
+  line-height: 1;
+}
+.icon-box h3 {
+  display: flex;
+  flex-direction: row;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 16px;
+  color: var(--second-color);
+}
 .web__interest:hover
 {
   box-shadow: 0 4px 25px rgb(249, 187, 44);
 }
-.backend__interest:hover
+.ai__interest:hover
 {
   box-shadow: 0 4px 25px rgb(82, 179, 255);
 }
-.cybersecurity__interest:hover
+.mechatronics__interest:hover
 {
-  box-shadow: 0 4px 25px rgb(235, 75, 102);
+  box-shadow: 0 4px 25px #0E0E0E;
 }
-.websecurity__interest:hover
+
+.mechatronics-icon
+{
+  padding-right: 10px;
+}
+
+.esp__interest:hover
 {
   box-shadow: 0 4px 25px rgb(63, 126, 49);
 }
-.electronics__interest:hover
+.iot__interest:hover
 {
   box-shadow: 0 4px 25px rgb(85, 120, 255);
 }
-.iot__interest:hover
+.arduino__interest:hover
 {
   box-shadow: 0 4px 25px rgb(236, 68, 25);
 }
 .esp__interest:hover
 {
   box-shadow: 0 4px 25px rgb(86, 168, 68);
-}
-.arduino__interest:hover
-{
-  box-shadow: 0 4px 25px rgb(111, 248, 255);
 }
 
 /*--------------------------------------------------------------
