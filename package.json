@@ -6,12 +6,17 @@
   "homepage": "https://github.com/mustafa-khann",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "start": "nodemon app.js"
   },
   "author": "Mustafa Khan",
   "license": "MIT",
   "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
     "gh-pages": "^1.2.0",
+    "http": "^0.0.1-security",
     "node-sass": "^4.13.1"
   }
 }
