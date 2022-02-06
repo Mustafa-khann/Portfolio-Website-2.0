@@ -7,7 +7,7 @@
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist",
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "engines": {
     "node": "12.22.7",
