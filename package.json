@@ -9,6 +9,10 @@
     "deploy": "gh-pages -d dist",
     "start": "nodemon app.js"
   },
+  "engines": {
+    "node": "12.22.7",
+    "npm": "7.5.2"
+  },
   "author": "Mustafa Khan",
   "license": "MIT",
   "dependencies": {
