@@ -7,7 +7,8 @@ const app = express();
 
 // Port
 const port = process.env.PORT || 3000;
-// Staticfiles
+
+// Static files
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Express API endpoints
