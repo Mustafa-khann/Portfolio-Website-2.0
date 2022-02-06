@@ -4,7 +4,6 @@ const http = require('http');
 
 // express server
 const app = express();
-const server = http.createServer(app);
 
 // Port
 const port = process.env.PORT || 3000;
@@ -28,6 +27,6 @@ app.get('/contact', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/html/contact.html'));
 });
 
-server.listen(port, function() {
+app.listen(port, function() {
     console.log(`Server running on port: ${port}`);
 });
