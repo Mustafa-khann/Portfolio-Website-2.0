@@ -6,9 +6,9 @@ const http = require('http');
 const app = express();
 const server = http.createServer(app);
 
-// server port
+// Port
 const port = process.env.PORT || 3000;
-//staticfiles
+// Staticfiles
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Express API endpoints
@@ -30,4 +30,4 @@ app.get('/contact', (req, res) => {
 
 server.listen(port, function() {
     console.log('Server started on port 3000');
-})
+});
